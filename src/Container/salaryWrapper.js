@@ -1,8 +1,8 @@
 import React from 'react'
 import SalaryForm from '../Components/salaryForm';
 import SalaryDisplay from '../Components/salaryDisplay';
-import Typography from '@material-ui/core/Typography'
-import Grid from '@material-ui/core/Grid'
+import {Typography, Grid} from '@material-ui/core'
+
 
 class SalaryWrapper extends React.Component{
     constructor(props){

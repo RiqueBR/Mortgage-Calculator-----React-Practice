@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 class SalaryDisplay extends React.Component{
     constructor(props){
         super(props)
@@ -9,7 +10,9 @@ class SalaryDisplay extends React.Component{
     render(){
         return (
             <div className="affordability-display">
-               <p>Well Done, you can afford a property of: {this.props.maxValue}</p>
+                    <br/>
+                        <h4>Well Done! You can afford a property in the value of £{this.props.maxValue}</h4>
+                    <br/>
             </div>
         )
     }

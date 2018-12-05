@@ -6,8 +6,8 @@ class SalaryForm extends React.Component{
         super(props)
 
           this.state = {
-              salary1: 0,
-              salary2: 0
+              salary1: "",
+              salary2: ""
           }
         this.handleSalary1Change = this.handleSalary1Change.bind(this)
         this.handleSalary2Change = this.handleSalary2Change.bind(this)
